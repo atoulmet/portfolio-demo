@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexia Toulmet - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #0066cc;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #004999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQEehEhJTFUNrQ/profile-displayphoto-shrink_800_800/B4EZTLt8DlHgAg-/0/1738584605294?e=1749081600&v=beta&t=IWpC_lk6V1BsfVnN4ew4xkNTXyqgBg4_UeUQFi6wTeI" alt="Photo de profil">
+    <h1>Alexia Toulmet</h1>
+    <p>Je forme les entrepreneuses à l’IA avec Meimei · Enseignante à Sciences Po & OpenClassrooms · Développeuse freelance</p>
+    <div class="links">
+      <a href="mailto:alexiatoulmet@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/alexia-toulmet">LinkedIn</a>
+      <a href="https://www.youtube.com/channel/UCnZUTC448cA6oWLZgNn0PXw">YouTube</a>
+      <a href="https://calendly.com/alexiatoulmet/meimei-call-questions">Calendly</a>
+    </div>
+  </header>
+
+  <div class="section">
+    <h2>Expérience</h2>
+    <div class="card">
+      <strong>Meimei</strong> — Fondatrice<br />
+      <em>2024 - Aujourd'hui</em><br />
+      Formation IA pour les entrepreneuses sans profil tech.
+    </div>
+    <div class="card">
+      <strong>Sciences Po</strong> — Enseignante web
+      <br /><em>2021 - Aujourd'hui</em>
+    </div>
+    <div class="card">
+      <strong>OpenClassrooms</strong> — Créatrice de cours
+      <br /><em>2019 - Aujourd'hui</em>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Cours créés</h2>
+    <div class="card">
+      - Créez votre site web avec HTML5 & CSS3<br />
+      - Débutez avec React<br />
+      - Maquettage avec Figma<br />
+      - Animations CSS modernes
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Compétences</h2>
+    <div class="card">
+      - Node.js · React.js · Project Management<br />
+      - Anglais (Pro) · Français (Bilingue) · Espagnol & Chinois (Notions)
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Me contacter</h2>
+    <form action="https://formspree.io/f/TON_ID_FORM" method="POST">
+      <input type="text" name="name" placeholder="Ton nom" required />
+      <input type="email" name="email" placeholder="Ton email" required />
+      <textarea name="message" rows="5" placeholder="Ton message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p style="font-size: 0.9rem; color: gray">PS : Le formulaire est prêt pour Formspree. Pense à remplacer l'URL par la tienne.</p>
+  </div>
+</body>
+</html>
